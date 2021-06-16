@@ -16,7 +16,7 @@ const Menu = [
     items: [
       {name: 'Inscription', title: 'Inscription', href: '/concours/inscription'},
       {name: 'Epreuves', title: 'Epreuves', badge: 'new', href: '/concours/epreuves'},
-      {name: 'Resultats', title: 'Resultats', href: '/widgets/chart'},
+      {name: 'Resultats', title: 'Resultats', href: '/concours/resultats'},
     ]
   },
   {
@@ -27,8 +27,8 @@ const Menu = [
     icon: 'edit',
     href: '/mail/all',
     items: [
-      {name: 'Theses', title: 'Theses', href: '/widgets/social'},
-      {name: 'Affectation', title: 'Affectations', badge: 'new', href: '/widgets/statistic'},
+      {name: 'Theses', title: 'Theses', href: '/inscription/theses'},
+      {name: 'Affectation', title: 'Affectations', badge: 'new', href: '/inscription/affectation'},
     ]
   },
   {
@@ -38,8 +38,8 @@ const Menu = [
     icon: 'feed',
     href: '/media',
     items: [
-      {name: 'Reinscription', title: 'Reinscription', href: '/widgets/social'},
-      {name: 'Jury', title: 'Jury', badge: 'new', href: '/widgets/statistic'},
+      {name: 'Reinscription', title: 'Reinscription', href: '/formation/reinscription'},
+      {name: 'Jury', title: 'Jury', badge: 'new', href: '/formation/jury'},
     ]
   },
   {
@@ -48,9 +48,9 @@ const Menu = [
     component: 'widgets',
     icon: 'menu_book',
     items: [
-      {name: 'Stage', title: 'Stage', href: '/widgets/social'},
-      {name: 'Deplacement', title: 'Deplacement', badge: 'new', href: '/widgets/statistic'},
-      {name: 'Retour De Stage', title: 'Retour De Stage', href: '/widgets/chart'},
+      {name: 'Stage', title: 'Stage', href: '/stages/stage'},
+      {name: 'Deplacement', title: 'Deplacement', badge: 'new', href: '/stages/deplacement'},
+      {name: 'Retour De Stage', title: 'Retour De Stage', href: '/stages/retour'},
     ]
   },
   {
@@ -59,25 +59,26 @@ const Menu = [
     component: 'widgets',
     icon: 'architecture',
     items: [
-      {name: 'Experts', title: 'Experts', href: '/widgets/social'},
-      {name: 'Thèses', title: 'Thèses', badge: 'new', href: '/widgets/statistic'},
-      {name: 'Jury', title: 'Jury', href: '/widgets/chart'},
+      {name: 'Experts', title: 'Experts', href: '/soutenance/experts'},
+      {name: 'Thèses', title: 'Thèses', badge: 'new', href: '/soutenance/theses'},
+      {name: 'Jury', title: 'Jury', href: '/soutenance/jury'},
     ]
   },
   
   {divider: true},
   {
-    title: 'Notifications',
+    title: 'Ordre de Jour',
     group: 'extra',
-    icon: 'notifications',
-    href: '/login'
+    icon: 'list_alt',
+    href: '/ordre'
   },
   {
     title: 'Contact Us',
     group: 'extra',
     icon: 'email',
-    href: '/login'
+    href: '/contactUs'
   },
+  {divider: true},
   {
     title: 'Logout',
     group: 'extra',

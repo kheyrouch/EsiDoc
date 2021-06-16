@@ -27,17 +27,17 @@
         Inscription: {
           title: 'Experts',
           text: "Les dossier d’inscriptions des candidats",
-          to:''
+          to:'/soutenance/experts'
         },
         Formation: {
           title: 'Thèses',
           text: "Liste des épreuves proposés et validés .",
-          to: ''
+          to: '/soutenance/theses'
         },
         Jury: {
           title: 'Jury',
           text: "Suivi des résultats du concours .",
-          to: ''
+          to: '/soutenance/jury'
         },
       }
     }),

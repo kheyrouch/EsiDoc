@@ -27,12 +27,12 @@
         Stage: {
           title: 'Stage',
           text: "Les dossier d’inscriptions des candidats",
-          to:'/stages/concours'
+          to:'/stages/stage'
         },
         Déplacement: {
           title: 'Déplacement',
           text: "Liste des épreuves proposés et validés .",
-          to: '/stages/deplacement/'
+          to: '/stages/deplacement'
         },
         'Retour de stage': {
           title: 'Retour de stage',

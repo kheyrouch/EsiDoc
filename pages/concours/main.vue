@@ -27,17 +27,17 @@
         concours: {
           title: 'Epreuves',
           text: "Liste des épreuves proposés et validés .",
-          to:'/concours/epreuves/'
+          to:'/concours/epreuves'
         },
         Inscription: {
           title: 'Inscription',
           text: "Les dossier d’inscriptions des candidats .",
           to:'/concours/inscription'
         },
-        Formation: {
+        Resultats: {
           title: 'Resultats',
           text: "Suivi des résultats du concours .",
-          to: '/concours/formation'
+          to: '/concours/resultats'
         },
       }
     }),

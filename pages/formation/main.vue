@@ -24,15 +24,15 @@
       color: Material,
       selectedTab: 'tab-1',
       items: {
-        Inscription: {
-          title: 'Réinscriptions',
-          text: "Réinscription des doctorants",
-          to:'/formation/jury'
-        },
         Formation: {
           title: 'Jury',
           text: "Avis sur les membres du jury .",
           to: '/formation/jury'
+        },
+        Inscription: {
+          title: 'Réinscriptions',
+          text: "Réinscription des doctorants",
+          to:'/formation/reinscription'
         },
       }
     }),
