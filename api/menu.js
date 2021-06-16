@@ -73,7 +73,7 @@ const Menu = [
     href: '/ordre'
   },
   {
-    title: 'Contact Us',
+    title: 'Contact Nous',
     group: 'extra',
     icon: 'email',
     href: '/contactUs'

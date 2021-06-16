@@ -10,9 +10,9 @@
           <v-subheader v-if="item.header" :key="item.header">{{ item.header }}</v-subheader>
           <v-divider v-else-if="item.divider" :key="index"></v-divider>
           <v-list-tile avatar v-else :key="item.title" @click="handleClick">
-            <v-list-tile-avatar :color="item.color">
+            <!-- <v-list-tile-avatar :color="item.color">
               <v-icon dark>{{item.icon}}</v-icon>
-            </v-list-tile-avatar>
+            </v-list-tile-avatar> -->
             <v-list-tile-content>
               <v-list-tile-sub-title v-html="item.title"></v-list-tile-sub-title>
             </v-list-tile-content>
@@ -23,7 +23,7 @@
         </template>
       </v-list>
       <v-divider></v-divider>
-      <v-btn block flat class="ma-0">All</v-btn>
+      <v-btn block flat class="ma-0" to='/notifications'>All</v-btn>
       <v-divider></v-divider>
     </v-card-text>
   </v-card>
